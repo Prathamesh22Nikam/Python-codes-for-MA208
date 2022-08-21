@@ -43,11 +43,5 @@ e = float(e)
 # Converting N to integer
 N = int(N)
 
-
-#Note: You can combine above three section like this
-# x0 = float(input('Enter Guess: '))
-# e = float(input('Tolerable Error: '))
-# N = int(input('Maximum Step: '))
-
 # Starting Newton Raphson Method
 fixedPointIteration(x0,e,N)
